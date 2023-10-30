@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/TrestleAdmin/trestle.git
+  revision: d89b3b8550879f24faa6a9510f072a3337a0bb38
+  specs:
+    trestle (0.9.8)
+      activemodel (>= 5.2.0)
+      kaminari (>= 1.1.0)
+      railties (>= 5.2.0)
+      sprockets-rails (>= 2.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -88,6 +98,18 @@ GEM
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
+    kaminari (1.2.2)
+      activesupport (>= 4.1.0)
+      kaminari-actionview (= 1.2.2)
+      kaminari-activerecord (= 1.2.2)
+      kaminari-core (= 1.2.2)
+    kaminari-actionview (1.2.2)
+      actionview
+      kaminari-core (= 1.2.2)
+    kaminari-activerecord (1.2.2)
+      activerecord
+      kaminari-core (= 1.2.2)
+    kaminari-core (1.2.2)
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -233,6 +255,7 @@ DEPENDENCIES
   selenium-webdriver (>= 4.0.0.rc1)
   spring
   sqlite3 (~> 1.4)
+  trestle!
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)
